@@ -26,31 +26,34 @@ body{
     font-family: source Sans pro , sans-serif;
     background-color: $color-body;
 }
-.logo {
-    font-size: 1.5rem;
-    text-decoration: none;
-    color: black;
-    margin: 4px;
-    padding: 15px;
-}
 #mainheader {
     height: 100px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-
+    width: 70%;
+    min-width: 400px;
+    margin: 0 auto;
+    .logo {
+        font-size: 1.8rem;
+        text-decoration: none;
+        color: black;
+        padding: 25px 30px;
+    }
     nav{
+        
         ul{
             list-style: none;
+            display: flex;
+            gap: 8px;
+            margin-top: 1rem;
         }
         li{
             display: inline-block ;
             text-transform: uppercase;
-            margin-left: 25px;
             padding: 2px;
-            font-size: 0.80rem;
-            font-weight: 700;
-            margin-top: 10px;  
+            font-size: 0.8rem;
+            font-weight: 700;  
         }
         a{
             text-decoration: none;
@@ -60,6 +63,9 @@ body{
             }
         }
     }
+}
+.container-1{
+    margin: 0 auto;
 }
 .img-bk {
     height: 300px;

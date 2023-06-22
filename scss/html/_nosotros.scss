@@ -20,7 +20,8 @@
         border-radius: 6%;
         box-shadow: 0px 0px 20px 14px rgb(63, 88, 58);
         .imagen-br-2{
-            @include size(150px, 150px);
+            height: 130px;
+            width: 130px;
             background-image: url(../img/web-developer-vs-software-engineer-man-with-laptop.webp);
             background-size:cover ;
             border-radius: 50%;
@@ -30,17 +31,19 @@
         .texto-1b{
             text-align: center;
             margin-top: 1rem;
-            font-size: 2rem;
+            font-size: 1.5rem;
             color: #000000;
             font-weight: 600;
         }
         .texto-2b{
-            margin-top: 3rem;
+            margin-top: 4rem;
             text-align: center;
-            font-size: 1.3rem;
             color: #000000;
             font-weight: 300;
             padding: 2rem;
+            p{
+                font-size: 1.1rem;
+            }
         }
     }
 }
